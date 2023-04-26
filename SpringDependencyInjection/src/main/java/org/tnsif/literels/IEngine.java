@@ -2,7 +2,8 @@ package org.tnsif.literels;
 
 public interface IEngine {
 	
-	String fuel ="Petrol";
+	//DI in the form of literals;
+	String fuel="Petrol";
 	double cost();
 	String display();
 
